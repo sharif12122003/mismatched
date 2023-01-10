@@ -1,6 +1,8 @@
-
+*{
+    margin: 0;
+}
 body{
-   background: rgb(255, 131, 152);
+    background-color: rgb(246, 5, 93);
     font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
 }
 p{
@@ -65,15 +67,16 @@ body a:hover{
     width: 100%;
     margin-top: 0px;
     text-align: center;
-
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .main h1{
     color: white;
+    margin: 10px;
 }
 .main .para{
     width: 70%;
     margin-left: 14vw;
+    margin-bottom: 30px;
 }
 .main p{
     color: aliceblue;
@@ -81,13 +84,16 @@ body a:hover{
 .main .btn{
     width: 100px;
     height: 40px;
-   color: rgb(1, 9, 121);
-   padding: 5px;
-   font-size: 25px;
-   border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 .main .btn:hover{
-    color: rgb(241, 237, 241);
+    color: rgb(0, 42, 255);
+    border: 1px solid rgb(0, 42, 255);
  }
  /*form 1*/
 .container{
@@ -95,6 +101,7 @@ body a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 .container .form1{
     border: 2px solid  rgb(235, 227, 227);
@@ -176,7 +183,7 @@ body a:hover{
 .container1 .form2 ul li{
     padding: 20px;
 }
-.container1 .form2 #btn1{
+.form2 #btn1{
     height: 40px;
     width: 120px;
     font-size: 20px;
@@ -184,11 +191,11 @@ body a:hover{
     margin: 20px;
     border-radius: 10px;
 }
-.container1 .form2 #btn1:hover{
+.form2 #btn1:hover{
     background-color: rgb(16, 12, 0);
-    color: white;
+    color: rgb(249, 249, 249);
 }
-.container1 .form2 #btn2{
+.form2 #btn2{
     height: 30px;
     width: 100px;
     font-size: 20px;
@@ -207,6 +214,7 @@ input::after{
 }
 
 .result{
+    
     display: flex;
     margin-top: 2px;
     justify-content: center;
@@ -221,23 +229,14 @@ input::after{
     backdrop-filter: blur(2px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 40px;
+    padding: 30px;
 }
-.result .qoute{
-    text-align: center;
-    justify-content: center;
-    border: 2px solid  rgb(235, 227, 227);
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    margin: 40px;
-}
+
 #r{
     font-size: 30px;
 }
 .outer{
-    background-color: rgb(248, 5, 155);
+    background-color: rgb(131, 131, 131);
     border-radius: 20px;
 }
 #gstore{
@@ -258,11 +257,11 @@ input::after{
     align-items: center;
 }
 .container2 .cards a{
-    color: white;
+    color: rgb(239, 239, 239);
     font-size: 30px;
 }
 .container2 .cards a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(116, 116, 116);
 }
 .container2 .cards img{
   width: 160px;
@@ -389,9 +388,9 @@ input::after{
     justify-content: center;
 }
 .outer1 .container3{
-    width: 45vw;
+    width: 50vw;
     height: auto;
-    background-color: white;
+    background-color: rgb(179, 176, 176);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -425,7 +424,6 @@ footer{
     background: #111;
     height: auto;
     width: 100%;
-    border-radius: 10px;
     color: #fff;
     margin-top: 2px;
 }
@@ -490,7 +488,6 @@ footer{
 .fb ul{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     list-style: none;
 }
 .fb ul li{
